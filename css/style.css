@@ -1479,6 +1479,10 @@ a {
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
+.article-entry pre {
+  color: code-word;
+  overflow: hidden;
+}
 .article-entry pre code {
   background: none;
   text-shadow: none;
