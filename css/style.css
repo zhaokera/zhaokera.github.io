@@ -1488,6 +1488,7 @@ a {
   border: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
 }
 .article-entry .highlight table {
   margin: 0;
