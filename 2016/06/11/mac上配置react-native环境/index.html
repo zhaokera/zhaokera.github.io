@@ -16,7 +16,7 @@
 <meta property="og:description" content="Mac上react native环境配置1.安装HomebrewHomebrew是OS X上的包管理器
 1$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
 介绍一些Homebrew常用的命令以git为例12345678$ bre">
-<meta property="og:updated_time" content="2016-09-13T06:37:54.000Z">
+<meta property="og:updated_time" content="2016-09-13T06:39:21.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mac上配置react native环境">
 <meta name="twitter:description" content="Mac上react native环境配置1.安装HomebrewHomebrew是OS X上的包管理器
@@ -247,7 +247,7 @@
         <h2 id="Mac上react-native环境配置"><a href="#Mac上react-native环境配置" class="headerlink" title="Mac上react native环境配置"></a>Mac上react native环境配置</h2><h5 id="1-安装Homebrew"><a href="#1-安装Homebrew" class="headerlink" title="1.安装Homebrew"></a>1.安装Homebrew<br></h5><p><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a>是OS X上的包管理器</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></pre></td></tr></table></figure>
 <p>介绍一些Homebrew常用的命令以git为例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">$ brew install git      //安装软件</div><div class="line">$ brew uninstall git    //卸载软件</div><div class="line">$ brew search git       //搜索软件</div><div class="line">$ brew upgrade git      //更新软件</div><div class="line">$ brew cleanup git      //删除软件</div><div class="line">$ brew outdated         //查看哪些软件需要更新</div><div class="line">$ brew upgrade          //把所有的Formula目录更新</div><div class="line">$ brew list             //显示已经安装的软件列表</div></pre></td></tr></table></figure></p>
-<p>&lt;–more–&gt;</p>
+<a id="more"></a>
 <h5 id="2-安装Watchman"><a href="#2-安装Watchman" class="headerlink" title="2.安装Watchman"></a>2.安装Watchman<br></h5><p><a href="https://facebook.github.io/watchman/docs/install.html" target="_blank" rel="external">watchman</a>是 facebook 的一个开源项目，它开源用来监视文件并且记录文件的改动情况，当文件变更它可以触发一些操作,例如执行一些命令等等。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install watchman</div></pre></td></tr></table></figure></p>
 <h5 id="3-安装Flow"><a href="#3-安装Flow" class="headerlink" title="3.安装Flow"></a>3.安装Flow<br></h5><p><a href="http://www.flowtype.org/" target="_blank" rel="external">Flow</a>使用flow来为js代码加上类型检查(不是一定要安装)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install Flow</div></pre></td></tr></table></figure></p>
 <h5 id="4-安装Node-js"><a href="#4-安装Node-js" class="headerlink" title="4.安装Node.js"></a>4.安装Node.js<br></h5><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>一定要安装版本大于4.0<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install Node</div></pre></td></tr></table></figure></p>
